@@ -13,7 +13,7 @@ seq_len = 200
 loss_margin = 0.1       # 0.2
 learning_rate = 0.1        #0.1
 num_epoch = 10 #140
-eval_every = 20
+eval_every = 200
 ratio = batch_size     # for test  == batch_size
 test_size = 20
 
