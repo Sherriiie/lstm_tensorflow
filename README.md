@@ -5,17 +5,17 @@ It refers to the paper of 'LSTM-BASED DEEP LEARNING MODELS FOR NON-FACTOID ANSWE
 
 Based on Tensorflow in python, a model with lstm and attention mechanism is implemented.
 
-I build a biLSTM model and train it for QA system. The parameters for train model are 
-    num_nodes = 141 #        # number of hidden layer units         
+I build a biLSTM model and train it for QA system. The parameters for train model are           
+    num_nodes = 141        # number of hidden layer units         
     embedding_size = 100            
     batch_size = 100s           
     seq_len = 200           
     loss_margin = 0.1        # 0.2, 0.3         
     learning_rate = 0.1      # 0.01         
     num_epoch = 10          
-    eval_every = 20
-    ratio = batch_size       # It is for test.
-    test_size = 20
+    eval_every = 20     
+    ratio = batch_size       # It is for test.      
+    test_size = 20      
 Just ignore the test texts in the training model bilstm.py. 
 The training process is as follows: 
   - First I set margin=0.1.
